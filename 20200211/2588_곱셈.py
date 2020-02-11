@@ -1,0 +1,5 @@
+A, B = map(int, input().split())
+print(B % 10 * A)
+print(B % 100 // 10 * A)
+print(B // 100 * A)
+print(B * A)
